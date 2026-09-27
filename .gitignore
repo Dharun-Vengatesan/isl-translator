@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Datasets & models (large, regenerable, don't belong in git history)
+dataset/raw/
+dataset/processed/
+*.csv
+!dataset/schema_example.csv
+models/*.pkl
+models/*.h5
+models/*.onnx
+
+# Environment / secrets
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+!.vscode/extensions.json
+
+# Unity (Person 2's side, once merged in)
+Library/
+Temp/
+Obj/
+Build/
+Logs/
+*.csproj
+*.sln
